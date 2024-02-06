@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRS recruitment form</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="" width="50">
+        <nav>
+                <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Register</a>
+                <a href="">Check result</a>
+                <a href="">Contact us</a>
+        </nav>
+    </header>
+    <main>
+            
+            <form>
+                <h1>Registration Form</h1>  
+
+                   <!-- full name -->
+                    <fieldset>
+                          <legend>Full Name</legend>
+                            <div class="input-group">
+                                <span class="special">
+                                    <label for="fname">firstname</label>
+                                    <input type="text" id="fname" name="fname" placeholder="e.g. John">
+                                </span>
+                            
+                                <span class="special">
+                                    <label for="">lastname</label>
+                                    <input type="text" placeholder="e.g. Smith">
+                                </span>
+                            
+                            </div>
+                    </fieldset>
+
+                    <!-- address -->
+
+                       <fieldset>
+                           <legend>Address</legend>
+                            <div class="input-group">
+                                <span>
+                                    <label for="fname">Street</label>
+                                    <input type="text" placeholder="e.g. Rabiatu Crescent">
+                                </span>
+                            
+                                <span>
+                                    <label for="">City</label>
+                                    <input type="text" placeholder="Masha">
+                                </span>
+                            
+                                <span>
+                                    <label for="">Country</label>
+                            
+                                    <select>
+                                        <option value="">select country</option>
+                                        <option value="">Nigeria</option>
+                                        <option value="">Ghana</option>
+                                        <option value="">Saudi Arabia</option>
+                            
+                                    </select>
+                            
+                                </span>
+                            
+                            </div>
+
+                       </fieldset>
+
+                        <!-- contact details -->
+                       <fieldset>
+                          <legend>Contact Details</legend>
+                          
+                        <div class="input-group">
+                            <span class="special">
+                                <label for="">Phone</label>
+                                <input type="number" min="100" ` step="100">
+                            </span>
+                        
+                            <span class="special">
+                                <label for="">Email</label>
+                                <input type="email">
+                            </span>
+                        </div>
+                       </fieldset>
+
+                        <!-- login details -->
+                         <fieldset>
+                              <legend>Login Details</legend>
+                            <div class="input-group">
+                                <span class="special">
+                                    <label for="">Username</label>
+                                    <input type="text" placeholder="e.g.codeprof">
+                                </span>
+                            
+                                <span class="special">
+                                    <label for="">password</label>
+                                    <input type="password">
+                                </span>
+                            
+                              
+                            </div>
+                         </fieldset>
+
+                        <!-- personal details -->
+                       <fieldset>
+                           <legend>Personal Details</legend>
+                            <div class="input-group">
+                                <span class="special">
+                                    <label for="">Date of Birth</label>
+                                    <input type="date">
+                                </span>
+                            
+                                <span class="special">
+                                    <label for="">Gender</label>
+                                    <p>
+                                        <small>
+                                            <input type="radio" name="gender"> male
+                            
+                                        </small>
+                            
+                                        <small>
+                                            <input type="radio" name="gender"> female
+                            
+                                        </small>
+                                    </p>
+                                </span>
+                            </div>
+
+                       </fieldset>
+
+
+                         <!-- commnent-->
+                        <fieldset>
+                              <legend>Additional Details</legend>
+                            <div class="input-group textarea">
+                                <label for="">Tell us about yourself</label>
+                                <textarea cols="30" rows="10"></textarea>
+                            </div>
+                        </fieldset>
+
+                         <!-- terms and condition -->
+                         
+                         <fieldset>
+                              <legend>Terms & Conditions</legend>
+                            <div class="input-group terms">
+                                <input type="checkbox">
+                                <label for="">Agree to Terms & Conditions</label>
+                            </div>
+
+                         </fieldset>
+
+                         <!-- submit button -->
+                         <div class="input-group submit">
+                            <button>Submit</button>
+                         </div>
+
+            </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

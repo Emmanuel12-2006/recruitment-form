@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: aliceblue;
+ 
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+header img{
+    width: 40px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:45px;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+main form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+    padding: 40px;
+    background-color: white;
+}
+
+form h1{
+    font-size: 25px;
+    font-weight: 100;
+    color:black;
+    margin: 20px 0;
+    align-self: center;
+    border-bottom: 1px solid orange;
+    padding-bottom: 5px;
+    
+}
+
+form fieldset{
+    border:1px solid #ccc;
+    width: 100%;
+    padding: 20px;
+ 
+}
+
+fieldset legend{
+    font-size: 12px;
+    color:orange;
+    font-weight: 400;
+}
+
+
+.input-group{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap:50px;
+}
+
+.input-group span{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+
+.input-group label{
+    font-size: 12px;
+    color:black;
+}
+
+.input-group input, select, textarea{
+    padding: 10px 20px;
+    border:1px solid black;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+
+.input-group input:focus{
+    border-color: orange;
+}
+.input-group .special{
+    width: 50%;
+  
+}
+
+
+.input-group .name input{
+    width: 100%;
+  
+}
+
+/* address styling */
+
+/* gender styling */
+.special p{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* text area */
+.textarea{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.textarea textarea{
+    width: 100%;
+}
+
+/* terms and condtions */
+.terms{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+}
+
+
+
+/* submit button */
+
+.submit{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.input-group button{
+    width: fit-content;
+    padding: 10px 20px;
+    border:none;
+    background-color: darkorange;
+    color:white;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+
+.submit button:hover{
+    background-color: black;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
